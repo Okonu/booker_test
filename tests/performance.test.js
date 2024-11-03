@@ -319,7 +319,6 @@ describe('Performance and Health Tests', () => {
                 
                 expect(response.statusCode).toBe(200);
             } catch (error) {
-                // If we timeout, fail gracefully
                 expect(error.message).toBe('Timeout');
             }
             

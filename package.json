@@ -7,9 +7,8 @@
     "test:auth": "jest auth.test.js",
     "test:booking": "jest booking.test.js",
     "test:performance": "jest performance.test.js",
-    "test:watch": "jest --watchAll",
     "test:coverage": "jest --coverage",
-    "test:ci": "cross-env CI=true jest"
+    "test:watch": "jest --watchAll"
   },
   "keywords": [],
   "author": "",
